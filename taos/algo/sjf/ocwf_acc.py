@@ -90,7 +90,7 @@ def OCWF_ACC(jobs, sites):
 
                             for tg in oj.task_groups:
                                 bklgs = [virtual_bklgs[oj][site.index] for site in tg.available_sites]
-                                caps = [site.capacities[site.index] for site in tg.available_sites]
+                                caps = [site.capacities[job.index] for site in tg.available_sites]
 
                                 xi_k = common.x_k(num_tasks_to_allocate=tg.num_unfinished_tasks, bklgs=bklgs, caps=caps)
 

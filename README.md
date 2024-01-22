@@ -44,7 +44,7 @@ OCWF progress:: 100%|█████| 250/250 [12:57<00:00,  3.11s/it, jrt=12627
 OCWF: 328.676
 OCWF-ACC progress:: 100%|█████| 250/250 [08:15<00:00,  1.98s/it, jrt=9033]
 [OCWF-ACC] computation overhead: 495.733517 secs
-OCWF-ACC: 304.548
+OCWF-ACC: 328.676
 
 Average computation overhead:
 
