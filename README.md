@@ -3,7 +3,7 @@
 This repository contains the simulation code of taos (task assignment and order scheduling) 
 related algorithms.
 
-We implement five algorithms, OBTA, NLIP, WF, OCWF, and OCWF-ACC. The first three algorithms 
+We implement 6 algorithms, OBTA, NLIP, WF, RD, OCWF, and OCWF-ACC. The first 4 algorithms 
 are First-Come-First-Serve (FIFO) algorithms without adjusting outstanding jobs' orders while the last two algorithms 
 are Shortest-Remaining-Time-First (SRTF) algorithms.
 
